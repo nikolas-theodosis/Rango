@@ -127,3 +127,7 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+# URL to redirect not logged in users
+
+LOGIN_URL = '/rango/login/'
