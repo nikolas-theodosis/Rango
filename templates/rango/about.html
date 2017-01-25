@@ -16,10 +16,6 @@
                 alt="Picture of a cat" />
         </div>
         <div>
-            {% if visits > 1 %}
-                <p> You have visited this website {{ visits }} times</p>
-            {% else %}
-                <p> You have visited this website {{ visits }} time</p>
-            {% endif %}
+            <p>visits: {{ visits }}</p>
         </div>
 {% endblock %}
